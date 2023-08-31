@@ -1,0 +1,24 @@
+.container_search {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cart {
+    width: 280px;
+}
+
+.cart_img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn_beli {
+    width: 100%;
+}
+
+.link_beli {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}

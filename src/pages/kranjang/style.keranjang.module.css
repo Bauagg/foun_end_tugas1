@@ -1,0 +1,91 @@
+.container {
+    width: 450px;
+    height: 160px;
+    justify-content: center;
+}
+
+.btn_sampah {
+    width: 100px;
+    height: 160px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.btn3 {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
+
+.btn_qty {
+    width: 200px;
+    height: 160px;
+    text-align: center;
+}
+
+.img_product {
+    width: 200px;
+    height: 100px;
+}
+
+.btn1 {
+    padding: 5px 10px;
+    color: #40BFFF;
+    font-weight: bolder;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+    width: 40px;
+}
+
+.input1 {
+    padding: 5px 10px;
+    margin: 5px;
+    width: 50px;
+    background-color: #eeeeee;
+    border: 2px solid #eeeeee;
+}
+
+.btn2 {
+    padding: 5px 10px;
+    font-weight: bolder;
+    border: 1px solid #eef9ff;
+    background-color: #eef9ff;
+    margin-top: 6px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+.container_price {
+    height: 160px;
+    width: 150px;
+}
+
+.btn_chekout {
+    width: 100px;
+    height: 160px;
+    position: relative;
+}
+
+.btn4 {
+    position: absolute;
+    top: 40%;
+}
+
+.judul_price {
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+.btn5 {
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 100px;
+}
+
+.btn5 {
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 100px;
+
+}
