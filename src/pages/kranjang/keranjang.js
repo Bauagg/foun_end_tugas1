@@ -100,6 +100,13 @@ const Keranjang = () => {
             .catch((error) => console.log(error))
     }
 
+    const hendleSelectAll = (e) => {
+        e.preventDefault()
+
+        const selectAll = dataCart.map((index) => index._id)
+        setInvoice([...selectAll])
+    }
+
     return (
         <div>
             <Container>
@@ -156,6 +163,9 @@ const Keranjang = () => {
 
                                                         <Col>
                                                             <div className={styleKranjang.btn_chekout}>
+                                                                {
+                                                                    index === 0 && (<Button onClick={hendleSelectAll}>Select All</Button>)
+                                                                }
                                                                 <Form.Check
                                                                     aria-label="option 1"
                                                                     label='Chekout'

@@ -17,6 +17,7 @@ import Invoice from "../pages/invoice/invoice";
 import NavbarAdmin from "../componen/navbarAdmin";
 import GetProductAdmin from "../pages-admin/getProduct.admin";
 import OrderAdmin from "../pages-admin/Order/order-admin";
+import OrderSuccess from "../pages-admin/Order/order_succes";
 
 const IndexRouter = () => {
     const { user, role } = useSelector(state => state)
@@ -26,8 +27,6 @@ const IndexRouter = () => {
             {
                 role === 'admin' ? <NavbarAdmin /> :
                     <Routes>
-                        <Route path="/order" element={<OrderAdmin />} />
-                        <Route path="/home" element={<GetProductAdmin />} />
                         <Route path="/" element={<GetProduct />} />
                         <Route path="/product-detail/:id" element={<ProductDetail />} />
                         <Route path="/login" element={<Login />} />
@@ -41,6 +40,9 @@ const IndexRouter = () => {
                         <Route path="/create-address" element={user ? <CreateAddress /> : <Login />} />
                         <Route path="/update-address/:id" element={user ? <UpdateAddress /> : <Login />} />
                         <Route path="/update-product/:id" element={user ? <UpdateProduct /> : <Login />} />
+                        <Route path="/order-success" element={user ? <OrderSuccess /> : <Login />} />
+                        <Route path="/order" element={user ? <OrderAdmin /> : <Login />} />
+                        <Route path="/home" element={user ? <GetProductAdmin /> : <Login />} />
                     </Routes>
             }
 

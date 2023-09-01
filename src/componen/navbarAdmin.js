@@ -9,6 +9,7 @@ import CreateProduct from '../pages/product/controler_product/create.product'
 import UpdateProduct from '../pages/product/controler_product/update.product'
 import GetProductAdmin from '../pages-admin/getProduct.admin'
 import OrderAdmin from '../pages-admin/Order/order-admin'
+import OrderSuccess from '../pages-admin/Order/order_succes'
 
 
 
@@ -74,6 +75,7 @@ const NavbarAdmin = () => {
                     <Route path="/create-product" element={<CreateProduct />} />
                     <Route path="/update-product/:id" element={<UpdateProduct />} />
                     <Route path="/order" element={<OrderAdmin />} />
+                    <Route path='/order-success' element={<OrderSuccess />} />
                 </Routes>
             </div>
         </div>
