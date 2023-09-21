@@ -96,7 +96,7 @@ const OrderAdmin = () => {
                                                                 <td>{index._id}</td>
                                                                 <td>{index.user.full_name}</td>
                                                                 <td>{item.product.name}</td>
-                                                                <td>{index.isPaid}</td>
+                                                                <td><p className='text-danger'>{index.isPaid}</p></td>
                                                                 <td>{item.qty}</td>
                                                                 <td>{item.qty * item.product.price}</td>
                                                             </tr>

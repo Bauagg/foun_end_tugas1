@@ -116,12 +116,12 @@ const GetProduct = () => {
 
                                             <Dropdown.Item
                                                 onClick={() => {
-                                                    setSearchTag('smartpone')
+                                                    setSearchTag('smartphone')
                                                     setSearch('')
                                                     setCategory('')
                                                 }}
                                             >
-                                                Smartpone
+                                                Smartphone
                                             </Dropdown.Item>
 
                                             <Dropdown.Item

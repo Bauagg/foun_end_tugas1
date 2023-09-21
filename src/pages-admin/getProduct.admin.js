@@ -47,15 +47,15 @@ const GetProductAdmin = () => {
                                             < Card className={styleGetProduct.cart} >
                                                 <Card.Img className={styleGetProduct.cart_img} variant="top" src={index.image} />
                                                 <Card.Body>
-                                                    <Card.Title>Laptop Asusu</Card.Title>
+                                                    <Card.Title>{index.name}</Card.Title>
                                                     <div className="d-flex justify-content-between">
                                                         <div>
                                                             <h6>Price</h6>
-                                                            <p>Rp. 12000</p>
+                                                            <p>Rp. {index.price}</p>
                                                         </div>
                                                         <div>
                                                             <h6 className="text-start ps-5">Category</h6>
-                                                            <p className="text-start ps-5">Electronik</p>
+                                                            <p className="text-start ps-5">{index.category.name}</p>
                                                         </div>
                                                     </div>
                                                     <Button variant="warning" className={styleGetProduct.btn_beli}>

@@ -182,7 +182,7 @@ const CreateProduct = () => {
                                     <Form.Group className="mb-3">
                                         <div> <Form.Label>Product Option</Form.Label></div>
                                         <div>
-                                            {['digital', 'smartphone', 'laptop', 'jas', 'spatu', 'kemeja', 'roti', 'nasi', 'daging'].map((option) => (
+                                            {['digital', 'smartphone', 'laptop', 'jas', 'sepatu', 'kemeja', 'roti', 'nasi', 'daging'].map((option) => (
                                                 <div key={option} className="md-2 d-inline">
                                                     <Form.Check
                                                         inline
